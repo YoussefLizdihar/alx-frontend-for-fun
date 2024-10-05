@@ -1,0 +1,4 @@
+/* printing Hello world*/
+
+$debug-message: "Hello world";
+@debug $debug-message;
