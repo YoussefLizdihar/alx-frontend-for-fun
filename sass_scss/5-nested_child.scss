@@ -1,0 +1,11 @@
+/**a Sass file that assigns colors to tags*/
+
+body{
+	color: #3D3D3D;
+}
+
+body{
+	> .red{
+		color: #FF0000;
+	}
+}
