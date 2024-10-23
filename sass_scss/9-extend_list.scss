@@ -1,0 +1,15 @@
+// Sass file to style different tags with shared font-size and custom colors
+
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info;
+  color: #00FF00;
+}
+
+.warning {
+  @extend .info;
+  color: #FF0000;
+}
