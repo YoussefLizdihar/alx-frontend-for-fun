@@ -1,0 +1,15 @@
+/** This file generates a class for each name in the list $list-names 
+    and assigns a background image based on the name using a loop. 
+    The image is located inside the "photos" folder and has the same 
+    name as the person. Each class follows the format "photo-{name}".
+*/
+
+@import "some-other-file";
+
+$list-names: julien, john, sam, damian;
+
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
