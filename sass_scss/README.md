@@ -14,3 +14,4 @@ create 11-loop_photos.scss
 create 12-loop_header.scss
 create 12-loop_header.scss
 create 100-loop_col.scss
+create 101-media_query.scss
