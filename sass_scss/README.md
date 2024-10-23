@@ -15,3 +15,4 @@ create 12-loop_header.scss
 create 12-loop_header.scss
 create 100-loop_col.scss
 create 101-media_query.scss
+create 102-media_query.scss
