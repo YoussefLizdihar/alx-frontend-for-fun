@@ -13,3 +13,4 @@ create 10-import_colors.scss
 create 11-loop_photos.scss
 create 12-loop_header.scss
 create 12-loop_header.scss
+create 100-loop_col.scss
